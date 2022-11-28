@@ -1,0 +1,1110 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Road Fury - Play Road Fury Game on Racingpcgame.com</title>
+        <meta name="description" content="Road Fury is a two-dimensional shooter that never ends.
+        Using a simple navigation system, you weave through the traffic, 
+        passing slower cars on the road and destroying anything in your way.">
+        <meta name="keywords" content="racing games pc, 
+        best pc racing games, 
+        car games for pc, 
+        driving games for pc,
+        best car games for pc, 
+        pc racing games, 
+        racing pc games">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+		<!-- CSS here -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="css/odometer.css">
+        <link rel="stylesheet" href="css/aos.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/meanmenu.css">
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/default.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <style>
+            .game-iframe-container {
+                position: relative;
+                overflow: hidden;
+                width: 100%;
+                min-height: 75vh;
+            }
+            .game-iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                width: 100%;
+                height: 100%;
+            }
+                    .FG-splash-button{
+                        border-bottom-color:#ffb53d!important;
+                        color:#000;background:linear-gradient(140deg,#fbde04,#e2c803)}
+                    .FG-splash-button:hover{
+                        border-bottom-color:#ff5e00!important;
+                        color:#fff;
+                        background:linear-gradient(140deg,#ff9214,#fa8500)}
+                    .FG-splash-button:active{
+                        border-bottom-color:#ff7e33!important;
+                        background:linear-gradient(140deg,#ffa947,#ff9d2e)}
+                    .SP-splash-button{
+                        width:290px;
+                        height:60px;
+                        margin-top:2.5rem;
+                        border-radius:290486px!important;
+                        padding-left:2rem;
+                        padding-right:2rem;
+                        border:3px solid #fff!important;
+                        color:#0a0a0a;
+                        text-transform:uppercase;
+                        background:linear-gradient(180deg,#F46119,#F46119);
+                        box-shadow:12px 14px 15px -1px rgba(0,0,0,.2)}
+                    .SP-splash-button:before{
+                        content:"";
+                        position:absolute;
+                        left:0;top:1px;
+                        width:100%;
+                        height:100%;
+                        border-radius:290486px!important;
+                        opacity:0;
+                        background:linear-gradient(180deg,#fff600,#ffde00);
+                        box-shadow:inset 0 0 7px 0 rgba(223,180,170,.53);
+                        transform:scale(0);
+                        transform-origin:50% 100%;
+                        will-change:transform;
+                        transition:transform .3s cubic-bezier(.25,.46,.45,.94),opacity .2s cubic-bezier(.25,.46,.45,.94);
+                        z-index:-1}
+                    .SP-splash-top>div>button:active{transform:translateY(0)}
+                    .SP-splash-button:hover:before{
+                        top:0;
+                        opacity:1;
+                        transform:scale(1)}
+                    .SP-splash-top>div>button:active:before{
+                        box-shadow:inset 0 0 7px 0 rgba(224,71,36,.53),inset 0 0 7px 0 rgba(0,0,0,.35)}
+                    .HG-splash-button{
+                        height:35px;
+                        line-height:35px;
+                        border-bottom:none!important;
+                        border-radius:5px!important;
+                        color:#f06000;
+                        background:#fff}
+                    .HG-splash-button:hover{
+                        color:#fff;
+                        background:#f06000}
+                    .BG-splash-button,.BG-splash-button:active{
+                        box-shadow:inset 0 3px 0 0 #00fcff,
+                        inset 20px 0 50px rgba(8,238,225,.3),
+                        inset 20px 0 300px rgba(0,200,187,.05),
+                        inset 0 20px 50px rgba(8,238,225,.3),
+                        inset 0 0 10px #affffa,4px 4px 4px 0 rgba(10,10,10,.5)!important;
+                        background-color:rgba(9,81,105,.5);
+                        border:0;
+                        color:#affffa;
+                        width:290px;
+                        height:4rem;
+                        border-radius:290486px!important;
+                        font-size:1.25rem!important;
+                        border:2px solid #5258b5!important;
+                        opacity:.7}
+                    .BG-splash-button:before{
+                        content:"";
+                        position:absolute;
+                        left:0;top:1px;
+                        width:100%;
+                        height:100%;
+                        border-radius:290486px!important;
+                        opacity:0;
+                        background-color:#fff;box-shadow:inset 0 0 7px 0 rgba(223,180,170,.53)!important;transform:scale(0);
+                        transform-origin:50% 50%;will-change:transform;
+                        transition:transform 172ms cubic-bezier(.25,.46,.45,.94),opacity 172ms cubic-bezier(.25,.46,.45,.94);
+                        z-index:-1}
+                    .BG-splash-button:hover{
+                        color:rgba(0,0,0,.7)!important;border:2px solid #098c9c!important}
+                    .BG-splash-button:active{
+                        border-color:transparent!important;
+                        color:rgba(0,0,0,.7);transform:translateY(0)}
+                    .BG-splash-button:hover:before{
+                        top:0;
+                        opacity:1;
+                        transform:scale(1)}
+                    .BG-splash-button:active:before{
+                        box-shadow:inset 0 0 7px 0 rgba(224,71,36,.53),inset 0 0 7px 0 rgba(0,0,0,.35)!important}body{position:inherit}
+                    .talpa-splash-background-container{
+                        box-sizing:border-box;
+                        position:absolute;
+                        top:0;
+                        left:0;
+                        width:100%;
+                        height:100%;
+                        background-color:#000;
+                        overflow:hidden}
+                    .talpa-splash-background-image{
+                        box-sizing:border-box;
+                        position:absolute;
+                        top:-25%;
+                        left:-25%;
+                        width:150%;
+                        height:150%;
+                        background-image:var(--thumb);
+                        background-size:cover;
+                        filter:blur(50px) brightness(1.5)}
+                    .talpa-splash-container{
+                        display:flex;
+                        flex-flow:column;
+                        box-sizing:border-box;
+                        position:absolute;
+                        bottom:0;
+                        width:100%;
+                        height:100%}
+                    .talpa-splash-top{
+                        display:flex;
+                        flex-flow:column;
+                        box-sizing:border-box;
+                        flex:1;
+                        align-self:center;
+                        justify-content:center;
+                        padding:20px}
+                    .talpa-splash-top>div{text-align:center}
+                    .talpa-splash-top>div>button{
+                        position:relative;
+                        min-width:180px;
+                        min-height:45px;
+                        line-height:45px;
+                        border:0;
+                        border-radius:25px;
+                        border-bottom:5px solid grey;
+                        white-space:nowrap;
+                        text-overflow:ellipsis;
+                        text-align:center;
+                        text-transform:uppercase;
+                        text-shadow:1px 1px 1px rgba(0,0,0,.004);
+                        font-family:Roboto Condensed,Helvetica Neue,Arial,"sans-serif";
+                        font-size:16px;
+                        font-weight:400;
+                        cursor:pointer;
+                        box-shadow:inset 0 -1px 1px hsla(0,0%,100%,.1),inset 0 1px 1px hsla(0,0%,100%,.2);
+                        will-change:transform;
+                        transition:transform .15s linear}
+                    .talpa-splash-top>div>button:focus{outline:none}
+                    .talpa-splash-top>div>button:active{
+                        box-shadow:0 10px 20px rgba(0,0,0,.19),0 6px 6px rgba(0,0,0,.13);
+                        transform:translateY(-5px)}
+                    .talpa-loader,.talpa-loader:after{
+                        border-radius:50%;
+                        width:1.5em;
+                        height:1.5em}
+                    .talpa-loader{
+                        box-sizing:content-box;
+                        margin:0 auto;
+                        font-size:10px;
+                        position:relative;
+                        text-indent:-9999em;
+                        border:1.1em solid hsla(0,0%,100%,.2);
+                        border-left-color:#fff;
+                        -webkit-transform:translateZ(0);
+                        -ms-transform:translateZ(0);
+                        transform:translateZ(0);
+                        -webkit-animation:talpa-load8 1.1s linear infinite;
+                        animation:talpa-load8 1.1s linear infinite;
+                        display:none}
+                    .talpa-splash-top>div>div:first-child{
+                        position:relative;
+                        width:150px;
+                        height:150px;
+                        margin:auto auto 20px;
+                        border-radius:10px;
+                        overflow:hidden;
+                        border:2px solid hsla(0,0%,100%,.8);
+                        box-shadow:inset 0 5px 5px rgba(0,0,0,.5),0 2px 4px rgba(0,0,0,.3);
+                        background-image:var(--thumb);
+                        background-position:50%;
+                        background-size:cover}
+                    .talpa-splash-top>div>div>img{
+                        width:100%;
+                        height:100%}
+                    .talpa-splash-bottom{
+                        display:flex;
+                        flex-flow:column;
+                        box-sizing:border-box;
+                        align-self:center;
+                        justify-content:center;
+                        width:100%;
+                        padding:0 0 20px}
+                    .talpa-splash-bottom>.talpa-splash-consent,.talpa-splash-bottom>.talpa-splash-title{
+                        box-sizing:border-box;
+                        width:100%;
+                        padding:20px;
+                        background:linear-gradient(90deg,transparent,rgba(0,0,0,.5) 50%,transparent);
+                        color:#fff;
+                        text-align:left;
+                        font-size:12px;
+                        font-family:Arial;
+                        font-weight:400;
+                        text-shadow:0 0 1px rgba(0,0,0,.7);
+                        line-height:150%}
+                    .talpa-splash-bottom>.talpa-splash-title{
+                        padding:15px 0;
+                        text-align:center;
+                        font-size:18px;
+                        font-family:Helvetica,Arial,sans-serif;
+                        font-weight:700;
+                        line-height:100%}
+                    .talpa-splash-bottom>.talpa-splash-consent a{
+                        color:#fff}
+                        @-webkit-keyframes talpa-load8{0%{-webkit-transform:rotate(0deg);
+                        transform:rotate(0deg)}to{-webkit-transform:rotate(1turn);
+                        transform:rotate(1turn)}}
+                        @keyframes talpa-load8{0%{-webkit-transform:rotate(0deg);
+                        transform:rotate(0deg)}to{-webkit-transform:rotate(1turn);
+                        transform:rotate(1turn)}}
+                        @keyframes talpa-gradient{0%{background-position:0 50%}50%{background-position:100% 50%}to{background-position:0 50%}}
+                    .iframeloader {
+                        background: url(./images/loadinggif.gif) center center no-repeat;
+                        background-size: 5vw;}
+            .article-header {
+                width: 100%;
+                float: left;
+                border-bottom: 1px solid rgba(255,255,255,.1);
+                padding-bottom: 20px;
+                margin-bottom: 30px;
+                margin-top: 20px
+            }
+            
+        </style>
+    </head>
+    <body>
+
+        <!-- preloader -->
+        <div id="preloader">
+            <div id="loading-center">
+                <div id="loading-center-absolute">
+                    <img src="img/icon/preloader.svg" alt="racing-pc-games">
+                </div>
+            </div>
+        </div>
+        <!-- preloader-end -->
+
+
+        <!-- header-area -->
+        <header class="third-header-bg">
+            <div class="bg"></div>
+            <div class="container custom-container">
+                <div class="header-top-area t-header-top-area d-none d-lg-block">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="header-top-social">
+                                <ul>
+                                    <li>Follow</li>
+                                    <li><a href="https://facebook.com/unblockedgames" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="https://instagram.com/racingpcgames" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="https://twitter.com/@gamesnoads" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="https://youtube.com/@bestracinggames" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="header-top-login">
+                                <ul>
+                                    <li><a href="#"><i class="far fa-edit"></i>Register</a></li>
+                                    <li class="or">or</li>
+                                    <li><a href="#"><i class="far fa-edit"></i>sign in</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="sticky-header">
+                <div class="container custom-container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="main-menu menu-style-two">
+                                <nav>
+                                    <div class="logo d-block d-lg-none">
+                                        <a href="index.html"><img src="img/brand/racing-games.webp" alt="racing-pc-games"></a>
+                                    </div>
+                                    <div class="navbar-wrap d-none d-lg-flex">
+                                        <ul class="left">
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="https://pigak.com/3d-game.html" target="_blank">3D Games</a></li>
+                                            <li><a href="https://pigak.com/action.html" target="_blank">Action Games</a></li>
+                                            <li><a href="https://pokeonlinegames.com/" target="_blank">Poke Games</a></li>
+                                        </ul>
+                                        <div class="logo">
+                                            <a href="index.html"><img src="img/brand/racing-games.webp" alt="racing-pc-games"></a>
+                                        </div>
+                                        <ul class="right">
+                                            <li><a href="https://stickmanafk.github.io/" target="_blank">Stickman</a></li>
+                                            <li><a href="https://3dcarsimulator.github.io/" target="_blank">Slope Games</a></li>
+                                            <li><a href="https://y8online.github.io/jellytruck/"target="_blank">Y8 Games</a></li>
+                                            <li><a href="contact.html">contact</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="header-action">
+                                        <ul>
+                                            <li class="header-search"><a href="#" data-toggle="modal" data-target="#search-modal"><i class="fas fa-search"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                            <div class="mobile-menu-wrap d-block d-lg-none">
+                                <nav>
+                                    <div id="mobile-menu" class="navbar-wrap">
+                                        <ul>
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="https://pigak.com/3d-game.html" target="_blank">3D Games</a></li>
+                                            <li><a href="https://pigak.com/action.html" target="_blank">Action Games</a></li>
+                                            <li><a href="https://pokeonlinegames.com/"target="_blank">Poke Games</a></li>
+                                            <li><a href="https://stickmanafk.github.io/"target="_blank">Stickman</a></li>
+                                            <li><a href="https://3dcarsimulator.github.io/" target="_blank">Slope Games</a></li>
+                                            <li><a href="https://y8online.github.io/jellytruck/" target="_blank">Y8 Games</a></li>
+                                            <li><a href="contact.html">contact</a></li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                            <div class="mobile-menu"></div>
+                        </div>
+                        <!-- Modal Search -->
+                        <div class="modal fade" id="search-modal" tabindex="-1" role="dialog" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <form>
+                                        <input type="text" placeholder="Search here...">
+                                        <button><i class="fa fa-search"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom-bg"></div>
+        </header>
+        <!-- header-area-end -->
+
+        <!-- main-area -->
+        <main>
+
+            <!-- breadcrumb-area -->
+            <section class="breadcrumb-area breadcrumb-bg s-breadcrumb-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="breadcrumb-content text-center">
+                                <h2>Road Fury <span>Games</span></h2>
+                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- breadcrumb-area-end -->
+
+            <!-- game-single-area -->
+            <section class="game-single-area pt-120 pb-120">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="game-single-content">
+                                <div class="upcoming-game-head">
+                                    <div class="game-iframe-container" id="loadgame">
+                                        <div class="talpa-splash-container" style="background: var(--color2);"><div class="talpa-splash-top"><div>
+                                             <div style="--thumb:url(img/roadfury/road-fury-logo.webp);" alt="Stylish Crop Top Trends"></div>
+                                             <button id="talpa-splash-button" class="SP-splash-button" onclick="loadMainGame()" style="display: block;">PLAY NOW</button>
+                                             <div class="talpa-loader" style="display: none;">Loading...</div></div></div><div class="talpa-splash-bottom"></div></div>
+                                             <iframe src="img/bg/my_match_bg.jpg" style="height:695px; width:1100px" title="Iframe Example"></iframe>
+                                    </div>
+                                    <a onclick="open_fullscreen()" class="btn rotated-btn">FullScreen</a>
+                                    <div class="uc-game-head-title">
+                                        <h4>welcome PLAY FOR EVERYONE <span>Road Fury</span></h4>
+                                                </div>
+                                                <div class="uc-game-price">
+                                                    <h5>Description</h5>
+                                                </div>
+                                            </div>
+                                            <p><span>Road Fury</span> A 2D shooter with no end is called Road Fury. 
+                                                You maneuver through the traffic using a basic navigation system, passing slower vehicles on the road, and blasting anything that stands in your path.</p>
+                                            <p>When you're ready, make a pit stop at the store to update your wheels using your coins.
+                                                Any of the following six car parts can be upgraded:
+                                                Guns: The better your guns, the more damage they deal; Side Guns: By blasting out the sides of your car as well, you can treble the range of your weapons; Magnet: Extends the duration the magnet power-up lasts.
+                                                Increase the time the nitro power-up lasts with the "Nitro" option.
+                                                - Laser - lengthen the duration the laser power-up is active.</p>
+                                            <div class="game-single-img">
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+                                                        <img src="img/roadfury/road-fury.webp" alt="road-fury">
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <img src="img/roadfury/road-fury02.webp" alt="road-fury">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <p></p>
+                                            <div class="game-single-title mt-60 mb-30">
+                                                <h4>Good to Know</h4>
+                                            </div>
+                                            <div class="game-single-info mb-65">
+                                                <ul>
+                                                    <li><span>Category :</span>     Racing</li>
+                                                    <li><span>Requirements :</span> Platform, Pc, iOS, Android</li>
+                                                    <li><span>Multi player :</span> Games Controller System</li>
+                                                    <li><span>Visual Effect:</span> Operating vero excepturi magnam System</li>
+                                                </ul>
+                                            </div>
+                                            <div class="game-single-title mb-30">
+                                                <h4>Games Controller <span>System</span></h4><br>
+                                                <p>Arrow keys.</p>
+                                            </div>
+                                            
+                                            <p> For each car you obliterate, you receive coins; the larger the car, the greater the payout. Additionally, some cars may leave behind power-ups to aid you on your journey.</p>
+                                            <p>A level boss that tries to run you off the road awaits you at the conclusion of each level. Avoid their shots and make every shot count!</p>
+                                            <p>Play on until your health reaches zero. You will lose car health if you are shot at or collide with another vehicle. You will occasionally come across roadworks; avoid them at all costs!</p>
+                                            <p>There are no weapons to manage because the car's weaponry fire continually; instead, the player must weave through other cars to gather cash and power ups.
+                                            <p>Maximum harm to the other vehicles is caused by lasers.</p>
+                                            <p>- Nitro: give your vehicle an extra boost in speed</p>
+                                            <p>- Magnet: draws every coin to you.</p>
+                                            <p><span>Advancement & Challenge</span></p>
+                                            <p>Three cars are available for the player to choose from; only one car is accessible at launch. 
+                                                Only after completing a number of obstacles relating to the level, overall distance traveled, 
+                                                and number of automobiles destroyed are the second and third cars made available.</p>
+                                            <p>The player can use their coins to purchase the car after completing the challenges. The attacking automobiles are more challenging to take out as the player advances through the levels. 
+                                                To keep up, the player will need to continuously upgrading their vehicle.</p>
+
+                                            <div class="game-single-gallery">
+                                                <div class="row">
+                                                    <div class="col-lg-4 col-sm-6">
+                                                        <img src="img/roadfury/road-fury.webp" alt="road-fury">
+                                                    </div>
+                                                    <div class="col-lg-4 col-sm-6">
+                                                        <img src="img/roadfury/road-fury03.webp" alt="road-fury">
+                                                    </div>
+                                                    <div class="col-lg-4 col-sm-6">
+                                                        <img src="img/roadfury/road-fury04.webp" alt="road-fury">
+                                                    </div>
+                                                    <div class="col-lg-4 col-sm-6">
+                                                        <img src="img/roadfury/road-fury05.webp" alt="road-fury">
+                                                    </div>
+                                                    <div class="col-lg-4 col-sm-6">
+                                                        <img src="img/roadfury/road-fury06.webp" alt="road-fury">
+                                                    </div>
+                                                    <div class="col-lg-4 col-sm-6">
+                                                        <img src="img/roadfury/road-fury07.webp" alt="road-fury">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="game-single-shape"><img src="img/images/game_section_shape.png" alt=""></div>
+                                        </div>
+                                    </div>
+                                </div>
+                </div>
+            </section>
+            <!-- game-single-area-end -->
+
+            <!-- shop-area -->
+            <section class="shop-area pt-120 pb-90">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="game-single-title mb-55">
+                                <h4><span> Most Popular</span></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="burnin-rubber-5-xs.html"><img src="img/burninrubber5xs/burnin-rubber-5-xs.webp" alt="burnin-rubber-5-xs"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="burnin-rubber-5-xs.html"> Burnin Rubber 5 Xs</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="burnin-rubber.html"><img src="img/burninrubber/burnin-rubber.webp" alt="burnin-rubber"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="burnin-rubber.html"> Burnin Rubber</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="drive-mad.html"><img src="img/drivemad/drive-mad-logo.webp" alt="drive-mad"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="drive-mad.html"> Driver Mad</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="adventure-drivers.html"><img src="img/adventuredrivers/adventure-drivers.webp" alt="adventure-drivers"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="adventure-drivers.html">Adventure Drivers</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="merge-round-racers.html"><img src="img/mergeroundracers/merge-round-racers-logo.webp" alt="merge-round-racers"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="merge-round-racers.html">Merge Round Racers</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="merge-cyber-racers.html"><img src="img/mergecyberracers/merge-cyber-racers.webp" alt="merge-cyber-racers"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="merge-cyber-racers.html">Merge Cyber Racers</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="go-kart-go-ultra.html"><img src="img/gokartgoultra/go-kart-go-ultra-logo.webp" alt="go-kart-go-ultra"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="go-kart-go-ultra.html">Go Kart Go! Ultra!</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="car-simulator-arena.html"><img src="img/carsimulatorarena/car-simulator-arena.webp" alt="car-simulator-arena"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="car-simulator-arena.html">Car Simulator Arena</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="cartoon-mini-racing.html"><img src="img/cartoonminiracing/cartoon-mini-racing.webp" alt="cartoon-mini-racing"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="cartoon-mini-racing.html">Cartoon Mini Racing</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="car-drift-racers-2.html"><img src="img/cardriftracers2/car-drift-racers-2.webp" alt="cars-drifr-racers-2"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="car-drift-racers-2.html">Cars Drift Racers 2</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="cars-thief.html"><img src="img/carsthief/cars-thief.webp" alt="cars-thief"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="cars-thief.html">Cars Thief</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="bike-trials-winter-2.html"><img src="img/biketrialswinter2/bike-trials-winter-2.webp" alt="bike-trials-winter-2"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="bike-trials-winter-2.html">Bike Trials Winter 2</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="3d-moto-simulator-2.html"><img src="img/3dmotosimulator2/3d-moto-simulator-2.png" alt="3d-moto-simulator-2"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="3d-moto-simulator-2.html">3D Moto Simulator 2</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="3d-car-simulator.html"><img src="img/3dcarsimulator/3d-car-simulator.webp" alt="3d-car-simulator"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="3d-car-simulator.html">3D Car Simulator</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="top-speed-3d.html"><img src="img/topspeed3d/top-speed-3d-logo.webp" alt="top-speed-3d"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="top-speed-3d.html">Top Speed 3D</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="rocket-soccer-derby.html"><img src="img/rocketsoccerderby/rocket-soccer-derby-logo.webp" alt="rocket-soccer-derby"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="rocket-soccer-derby.html">Rocket Soccer Derby</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="flying-car-simulator.html"><img src="img/flyingcarsimulator/flying-car-simulator-logo.webp" alt="flying-car-simulator"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="flying-car-simulator.html">Flying Car Simulator</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="fortride-open-world.html"><img src="img/fortrideopenworld/fortride-open-world-logo.webp" alt="fortride-open-world"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="fortride-open-world.html">Fortride Open World</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="demolition-derby-crash-racing.html"><img src="img/demolitionderbycrashracing/demolition-derby-crash-racing.webp" alt="demolition-derby-crash-racing"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="demolition-derby-crash-racing.html">Demolition Derby Crash Racing</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="city-car-driving-stunt-master.html"><img src="img/citycardrivingstuntmaster/city-car-driving-stunt-master.webp" alt="city-car-driving-stunt-master"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="city-car-driving-stunt-master.html">City Car Driving Stunt Master</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="city-rider.html"><img src="img/cityrider/city-rider-logo.webp" alt="city-rider"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="city-rider.html">City Rider</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="burnout-drift-hilltop.html"><img src="img/burnoutdrifthilltop/burnout-drift-hilltop.webp" alt="burnout-drift-hilltop"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="burnout-drift-hilltop.html">Burnout Drift Hilltop</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="sling-drift.html"><img src="img/slingdrift/sling-drift-logo.webp" alt="sling-drift"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="sling-drift.html">Sling Drift</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="parking-fury-3d-beach-city.html"><img src="img/parkingfury3d/parking-fury-3d-beach-city-logo.webp" alt="parking-fury-3d-beach-city"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="parking-fury-3d-beach-city.html">Parking Fury 3D Beach City</a></h5>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="drift-hunters.html"><img src="img/drifthunters/drift-hunters-logo.webp" alt="drift-hunters"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="drift-hunters.html">Drift Hunters</a></h5>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="drift-boss.html"><img src="img/driftboss/drift-boss-logo.webp" alt="drift-boss"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="drift-boss.html">Drift Boss</a></h5>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="car-rush.html"><img src="img/carrush/car-rush.webp" alt="car-rush"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="car-rush.html">Car Rush</a></h5>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="bus-parking-3d.html"><img src="img/busparking/bus-parking-3d-logo.webp" alt="bus-parking-3d"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="bus-parking-3d.html">Bus Parking 3D</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="fire-truck.html"><img src="img/firetruck/fire-truck-logo.webp" alt="fire-truck"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="fire-truck.html">Fire Truck</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="moto-x3m-bike-race.html"><img src="img/moto3mx/moto-x3m-bike-race-logo.webp" alt="moto-x3m-bike-race"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="moto-x3m-bike-race.html">Moto X3m Bike Race</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="road-fury.html"><img src="img/roadfury/road-fury-logo.webp" alt="road-fury"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="road-fury.html">Road Fury</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="eggy-car.html"><img src="img/eggycar/eggy-car-logo.webp" alt="eggy-car"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="eggy-car.html">Eggy Car</a></h5>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="endless-truck.html"><img src="img/endlesstruck/endless-truck-logo.webp" alt="endless-truck"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="endless-truck.html">Endless Truck</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="jelly-truck.html"><img src="img/jellytruck/jelly-truck-logo.webp" alt="jelly-truck"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="jelly-truck.html"> Jelly Truck</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="smash-karts.html"><img src="img/smashkarts/smash-karts-logo.webp" alt="smash-karts"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="smash-karts.html">Smash Karts</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="madalin-stunt-cars-2.html"><img src="img/madalinstuntcars2/madalin-stunt-cars-2-logo.webp" alt="madalin-stunt-cars-2"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="madalin-stunt-cars-2.html">Madalin Stunt Cars 2</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="madalin-stunt-cars-3.html"><img src="img/madalinstuntcars3/madalin-stunt-cars-3-logo.webp" alt="madalin-stunt-cars-3"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="madalin-stunt-cars-3.html">Madalin Stunt Cars 3</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="mad-truck-challenge-special.html"><img src="img/madtruckchallengespecial/mad-truck-challenge-special-logo.webp" alt="madtruckchallengespecial"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="mad-truck-challenge-special.html">Mad Truck Challenge Special</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="extreme-car-parking.html"><img src="img/extremecarparking/extreme-car-parking-logo.webp" alt="extreme-car-parking"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="extreme-car-parking.html">Extreme Car Parking</a></h5>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="highway-racer-3d.html"><img src="img/highwayracer3d/highway-racer-3d-logo.webp" alt="highway-racer-3d"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="highway-racer-3d.html">Hightway Racer 3D</a></h5>
+                                </div>
+                            </div>
+                        </div> 
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="soccar.html"><img src="img/soccar/soccar-logo.webp" alt="soccar"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="soccar.html">Soccar</a></h5>
+                                </div>
+                            </div>
+                        </div>    
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="super-bike-the-champion.html"><img src="img/superbikethechampion/super-bike-the-champion-logo.webp" alt="super-bike-the-champion"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="super-bike-the-champion.html">Super Bike The Champion</a></h5>
+                                </div>
+                            </div>
+                        </div> 
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="accessories-item text-center mb-80">
+                                <div class="accessories-thumb mb-30">
+                                    <a href="truck-trials.html"><img src="img/trucktrials/truck-trials-logo.webp" alt="truck-trials"></a>
+                                </div>
+                                <div class="accessories-content">
+                                    <h5><a href="truck-trials.html">Truck Trials</a></h5>
+                                </div>
+                            </div>
+                        </div> 
+
+                    </div>
+                </div>
+            </section>
+            <!-- shop-area-end -->
+
+        </main>
+        <!-- main-area-end -->
+
+        <!-- footer-area -->
+        <footer>
+            <div class="footer-top footer-bg third-footer-bg">
+                <div class="container custom-container">
+                    <div class="row justify-content-between">
+                        <div class="col-lg-6">
+                            <div class="footer-widget mb-50">
+                                <div class="logo mb-35">
+                                    <a href="index.html"><img src="img/brand/racing-games.webp" alt="racing-pc-game"></a>
+                                </div>
+                                <div class="fw-text">
+                                    <p>The finest PC racing games have a rich history that dates back to the 1980s. 
+                                        Midtown Madness, Need for Speed, and Forza Horizon 5, Road Fury, Burnin Rubber 5 Xs, Eggy Car... 
+                                        are recent additions to the racing game genre. 
+                                        Even if you also want a racing sim game like iRacing, your alternatives are wide. 
+                                        Here is our selection of the top racing video games available right now...</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-fire"><img src="img/images/footer_fire.png" alt="racing-pc-game"></div>
+                        <div class="footer-fire footer-fire-right"><img src="img/images/footer_fire.png" alt="racing-pc-games"></div>
+                        <div class="col-xl-2 col-lg-3 col-md-5">
+                            <div class="footer-widget text-right mb-50">
+                                <div class="fw-title mb-35">
+                                    <h3>Quick <span>Link</span></h3>
+                                </div>
+                                <div class="fw-quick-link">
+                                    <ul>
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Privacy & Police</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-wrap third-copyright-wrap">
+                <div class="container custom-container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="copyright-text">
+                                <p>Copyright © 2022 <a href="index.html">Racing Pc Game</a> All Rights Reserved.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 d-none d-md-block">
+                            <div class="payment-method-img text-right">
+                                <img src="" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer-area-end -->
+
+
+
+
+		<!-- JS here -->
+        <script src="js/vendor/jquery-3.4.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/isotope.pkgd.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/jquery.meanmenu.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/aos.js"></script>
+        <script src="js/jquery.lettering.js"></script>
+        <script src="js/jquery.textillate.js"></script>
+        <script src="js/jquery.odometer.min.js"></script>
+        <script src="js/jquery.appear.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/jquery.countdown.min.js"></script>
+        <script src="js/jquery.scrollUp.min.js"></script>
+        <script src="js/imagesloaded.pkgd.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script>
+            function loadMainGame(){
+            var html = `<iframe class="game-iframe iframeloader" id="game-area" src="https://roadfury.games235.com/" width="480" height="800" scrolling="none" frameborder="0" allowfullscreen="" tabindex="0"></iframe>`;
+            document.getElementById("loadgame").innerHTML = html;
+            document.getElementById('loadgame').scrollIntoView();
+            }
+            function open_fullscreen() {
+                let game = document.getElementById("game-area");
+                if (game.requestFullscreen) {
+                    game.requestFullscreen();
+                } else if (game.mozRequestFullScreen) { /* Firefox */
+                    game.mozRequestFullScreen();
+                } else if (game.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
+                    game.webkitRequestFullscreen();
+                } else if (game.msRequestFullscreen) { /* IE/Edge */
+                    game.msRequestFullscreen();
+                }
+                };
+        </script>
+    </body>
+</html>
